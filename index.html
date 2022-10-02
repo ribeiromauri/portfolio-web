@@ -5,21 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styless.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43bc985840.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="nav">
+            <ul class="nav-list">
                 <li><a href="#sobre">Sobre mi</a></li>
                 <li><a href="#repositorio">Repositorio</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section id="sobre" class="sobre-mi">
         <h1>¡Hola, soy Mauricio!</h1>
-        <p>Estudiante de programación en busca de dar mis primeros pasos como desarrollador</p>
+        <p>Estudiante de programación en busca de sus primeros pasos como desarrollador</p>
+    </section>
+    <section id="repositorio" class="repositorio">
+        <h2>Algunos proyectos</h2>
+        <div class="proyectos">
+        <div class="repo">
+            <a href="https://github.com/ribeiromauri/sistema-gestion">
+                <h3>Sistema de gestión en consola</h3>
+                <img src="https://subir-imagen.com/images/2022/10/02/proyecto-gestion.jpg" alt="proyecto-gestion.jpg"/>
+                <p>Prácticas en C++ sobre POO, Archivos y vectores dinámicos</p>
+                <p><span>C++</span></p>
+            </a>
+        </div>
+        <div class="repo">
+            <a href="https://github.com/ribeiromauri/tp-winform-marcati-ribeiro">
+                <h3>Catálogo de articulos</h3>
+                <img src="https://subir-imagen.com/images/2022/10/02/tp-winform.jpg" alt="tp-winform.jpg"/>
+                <p>Gestión de artículos para un comercio</p>
+                <p><span>C#, TSQL</span></p>
+            </a>
+        </div>
+    </div>
+        <a id="profile-link" href="https://github.com/ribeiromauri" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
+    </section>
+    <section id="contacto" class="contacto">
+        <h2>Podes contactarme a través de</h2>
+        <div class="contact">
+        <a href="mailto:jose.ribeiro@alumnos.frgp.utn.edu.ar" class="btn"><i class="fas fa-at"></i>Correo electrónico</a>
+        <a href="https://www.linkedin.com/" class="btn"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
+        </div>
     </section>
 </body>
 </html>
